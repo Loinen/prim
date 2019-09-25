@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: AmaticSC; /* Имя шрифта */
+    src: url(../fonts/AmaticSC-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Comfortaa-Regular; /* Имя шрифта */
+    src: url(../fonts/Comfortaa-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: MPLUSRounded1c-Light; /* Имя шрифта */
+    src: url(../fonts/MPLUSRounded1c-Light.ttf); /* Путь к файлу со шрифтом */
+}    
+
+.header {
+	margin-bottom: 40px;
+	border-bottom: 2px solid #5c5c5c;
+	padding: 25px 0;
+}
+.header__logo {
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	float: left;
+}
+.header__name {
+	display: inline-block;
+	margin: 40px 0;
+	margin-left: 20px;
+	font-size: 50px;
+	font-family: "AmaticSC";
+	letter-spacing: 3px;
+}
+.header__menu {
+	margin-top: 50px;
+	float: right;
+}
+.header__menu-item {
+	margin: 0 20px;
+	font-size: 40px;
+	font-family: "AmaticSC";
+	color: black;
+	letter-spacing: 3px;
+}
+.news__item {
+	display: table;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 20px 15px;
+	transition-duration: .3s;
+}
+.photo__item {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.news__item:hover {
+	box-shadow: 0 0 7px #424242;
+}
+.news__img {
+	margin-right: 20px;
+	max-width: 250px;
+	width: 100%;
+	float: left;
+}
+.photo__img {
+	margin: 15px;
+	max-width: 250px;
+	width: 100%;
+
+}
+.news__intro {
+	font-family: "MPLUSRounded1c-Light";
+	line-height: 17px;
+	font-size: 21px;
+	letter-spacing: 1px;
+}
+.news__details {
+	font-family: "Comfortaa-Regular";
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 16px;
+	border: 1px solid black;
+	float: right;
+	color: black;
+	text-decoration: none;
+	transition-duration: .3s;
+}
+.news__details:hover {
+	background-color: #191a1d;
+	color: white;
+}
+.footer {
+	height: 130px;
+	margin-top: 50px;
+	background-color: #191A1D;
+}
